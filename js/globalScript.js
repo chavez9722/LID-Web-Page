@@ -34,8 +34,8 @@
             body: new FormData(e.target)
         })
         .then(res => {
-            console.log(`${typeof res} ${res}`)
-            res.ok ? res.json() : Promise.reject(res);
+            // console.log(`${res}`)
+            res.ok ? JSON.stringify(res) : Promise.reject(res);
         })
         .then(json => {
             console.log(json);
