@@ -33,7 +33,10 @@
             method: "POST",
             body: new FormData(e.target)
         })
-        .then(res => {res.ok ? res.json() : Promise.reject(res)})
+        .then(res => {
+            console.log(res)
+            res.ok ? res.json() : Promise.reject(res);
+        })
         .then(json => {
             console.log(json);
             location.hash = "#gracias";
