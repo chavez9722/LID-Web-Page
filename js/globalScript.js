@@ -24,7 +24,7 @@
     $loader = d.querySelector(".contact-form-loader"),
     $response = d.querySelector(".contact-form-response");
 
-    const url = "https://formsubmit.co/chavez9722@outlook.es";
+    const url = "https://formsubmit.co/contacto@lidagencia.com";
 
     $form.addEventListener("submit", e => {
         e.preventDefault();
