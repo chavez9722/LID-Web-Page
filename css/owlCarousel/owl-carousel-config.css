@@ -64,6 +64,12 @@
  transition: all 0.3s ease;
 }
 
+.owl-nav .owl-prev > svg, .owl-nav .owl-next > svg{
+    width: 2rem;
+    fill: var(--yellow);
+    display: none;
+}
+
 .owl-nav .owl-prev:hover, .owl-nav .owl-next:hover{
     background: none !important;
     outline: none !important;
@@ -72,15 +78,30 @@
 
 @media screen and (min-width:768px ) {
     .owl-nav{
-        top: 47%;
-        width: 98.4%;
+        top: 20%;
     }
 
     .owl-prev{
-        margin-left: 1.5rem !important;
+        margin-left: 0 !important;
     }
     
     .owl-next{
-        margin-right: 1.5rem !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (min-width:1024px ) {
+    .owl-nav .owl-prev > svg, .owl-nav .owl-next > svg{
+        width: 2rem;
+        fill: var(--yellow);
+        display: block;
+    }
+
+    .owl-prev{
+        margin-left: -2.5rem !important;
+    }
+    
+    .owl-next{
+        margin-right: -2.5rem !important;
     }
 }

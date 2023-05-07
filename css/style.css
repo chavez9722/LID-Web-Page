@@ -483,6 +483,8 @@ strong{
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-image: url("../assets/img/texture.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .success-stories-header h2{
