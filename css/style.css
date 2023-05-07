@@ -605,6 +605,9 @@ strong{
 .team{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    background-image: url("../assets/img/textureLight.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .team-header{
