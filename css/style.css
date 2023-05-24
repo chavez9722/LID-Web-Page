@@ -276,6 +276,43 @@ strong{
         border-bottom: thin solid var(--yellow);
     }
 }
+
+.wh-button{
+    margin: 0;
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    position: fixed;
+    bottom: 5rem;
+    right: 0.5rem;
+    background-color: #51C85D;
+    border-radius: 50%;
+    z-index: 9;
+}
+
+.wh-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wh-container > svg{
+    fill: var(--white);
+    width: 80%;
+    height: 80%;
+}
+
+@media screen and (min-width: 1024px) {
+    .wh-button{
+        width: 4rem;
+        height: 4rem;
+        bottom: 1rem;
+        right: 1rem;
+    }
+}
 /*********************************** MENU END ************************************/
 /************************************ MODAL **************************************/
 
